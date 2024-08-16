@@ -1,7 +1,7 @@
 // prompt sync is a program added as a dependency
 const prompt = require('prompt-sync')();
 
-function greet(namePassedIn) {
+function greet() {
   return `Welcome to SALT, ${name}`;
 }
 
