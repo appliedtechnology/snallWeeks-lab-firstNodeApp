@@ -1,12 +1,12 @@
 const prompt = require('prompt-sync')();
 
 function greet(namePassedIn) {
-  return 'Welcome to SALT, ';
+  return `Welcome to SALT, ${name}`;
 }
 
 // Main program
 const name = prompt('What is your name? ');
 const greeting = greet(name);
-console.log(greeting + name);
+console.log(greeting);
 
 module.exports.greet = greet;
