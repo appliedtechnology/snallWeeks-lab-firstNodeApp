@@ -1,3 +1,4 @@
+// prompt sync is a program added as a dependency
 const prompt = require('prompt-sync')();
 
 function greet(namePassedIn) {
@@ -5,6 +6,7 @@ function greet(namePassedIn) {
 }
 
 // Main program
+// sparar det som skrivs i prompten som en variabel
 const name = prompt('What is your name? ');
 const greeting = greet(name);
 console.log(greeting);
