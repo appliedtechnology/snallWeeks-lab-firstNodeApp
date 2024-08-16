@@ -7,6 +7,6 @@ function greet(namePassedIn) {
 // Main program
 const name = prompt('What is your name? ');
 const greeting = greet(name);
-console.log(greeting);
+console.log(greeting + name);
 
 module.exports.greet = greet;
